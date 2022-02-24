@@ -9,10 +9,10 @@ int	main(void)
 	while(odd <= 122)
 	{
 		write(1, &odd, 1);
-		if(even <= 90)
-		{
+		// if(even <= 90)
+		// {
 			write(1, &even, 1);
-		}
+		// }
 		odd+=2;
 		even+=2;
 	}
